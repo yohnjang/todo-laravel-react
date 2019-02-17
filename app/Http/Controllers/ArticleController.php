@@ -47,19 +47,7 @@ class ArticleController extends Controller
         return $article; 
         
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 	public function update(Request $request, Article $article)
 	{
 	    $article->update($request->all());
